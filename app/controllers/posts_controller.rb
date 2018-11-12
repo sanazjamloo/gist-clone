@@ -4,7 +4,9 @@ class PostsController < ApplicationController
   # GET /posts
   # GET /posts.json
   def index
+    # loading all post objects and storing them in an instance variable @posts.
     @posts = Post.all
+    render template: "posts/index.html.erb", layout: "application"
   end
 
   # GET /posts/1
