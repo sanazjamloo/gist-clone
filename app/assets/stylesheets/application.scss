@@ -20,7 +20,6 @@
   @import 'bootstrap/theme' */
 
   body {
-
     width: 100%;
     margin: 0;
     background-color: #fff;
@@ -71,19 +70,19 @@
     border-radius: 5px;
   }
 
-  ul {
-   list-style-type: none;
-   display: flex;
-   justify-content: space-between;
- }
 
- li {
+ .github, .all-gists {
    margin-right: 6%;
    width: 30%;
+   justify-content: space-between;
+   text-decoration: none;
+   margin: 0;
+   padding: 32px;
+
  }
 
   .footer {
-    height: 50px;
+  height: 50px;
    background-color: #24292e;
    color: #f0f0f0;
    padding-left: 40%;
