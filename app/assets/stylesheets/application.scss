@@ -84,12 +84,16 @@
    text-decoration: none;
  }
 
-  .footer {
+  footer {
   height: 20px;
    background-color: #24292e;
    color: #f0f0f0;
    padding-left: 40%;
-   padding-top: 14px;
-   padding-bottom: 14px;
+   padding-top: 1px;
+   padding-bottom: 23px;
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
 
   }
