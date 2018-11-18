@@ -9,6 +9,7 @@ class PostsController < ApplicationController
     render template: "posts/index.html.erb", layout: "application"
   end
 
+
   # GET /posts/1
   # GET /posts/1.json
   def show
