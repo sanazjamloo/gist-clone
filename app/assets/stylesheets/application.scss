@@ -15,63 +15,77 @@
  */
 
 
-  // @import ‘bootstrap’;
-body {
-  width: 100%;
-  margin: 0;
-  background-color: #fff;
-  color: #333;
-  // margin: 33px;
-  font-family: verdana, arial, helvetica, sans-serif;
-  font-size: 13px;
-  line-height: 18px;
-}
+  /* @import "bootstrap-sprockets";
+  @import "bootstrap";
+  @import 'bootstrap/theme' */
 
-.container {
-  min-height: calc(100vh - 70px);
-}
+  body {
 
-.header-wrapper {
-  background-color: #24292e;
+    width: 100%;
+    margin: 0;
+    background-color: #fff;
+    color: #333;
+    // margin: 33px;
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+  }
+
+
+  .container {
+    min-height: calc(100vh - 70px);
+  }
+
+  .header-wrapper {
+    background-color: #24292e;
+    display: flex;
+    width: 103%;
+    height:6%;
+    margin-left: -8px;
+    position:fixed;
+    top:0px;
+  }
+
+  #logo {
   display: flex;
-  width:100%;
-  height:6%;
-  margin-left: -8px;
-  position:fixed;
-  top:0px;
-}
+  color: white;
+  width: auto;
+  height: 20%;
+  font-size: 2em;
+  padding-left: 5%;
+  }
 
-#logo {
-display: flex;
-color: white;
-width: auto;
-height: 20%;
-font-size: 2em;
-padding-left: 5%;
-}
+  #search-bar {
+    display: flex;
+    float: right;
+    font-size: 9px;
+    padding: 6px;
+    border: none;
+    margin-top: 11px;
+    margin-right: 20px;
+    padding-left: 1%;
+    margin-left: 20%;
+    height: 2em;
+    width: 20%;
+    margin-top: 11px;
+    border-radius: 5px;
+  }
 
-#search-bar {
-  display: flex;
-  float: right;
-  font-size: 9px;
-  padding: 6px;
-  border: none;
-  margin-top: 11px;
-  margin-right: 20px;
-  padding-left: 1%;
-  margin-left: 20%;
-  height: 2em;
-  width: 20%;
-  margin-top: 11px;
-  border-radius: 5px;
-}
+  ul {
+   list-style-type: none;
+   display: flex;
+   justify-content: space-between;
+ }
 
-.footer {
-  height: 50px;
-  background-color: #24292e;
-  color: #f0f0f0;
-  padding-left: 40%;
-  padding-top: 11px;
+ li {
+   margin-right: 6%;
+   width: 30%;
+ }
 
-
-}
+  .footer {
+    height: 50px;
+   background-color: #24292e;
+   color: #f0f0f0;
+   padding-left: 40%;
+   padding-top: 11px;
+  }

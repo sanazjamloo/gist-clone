@@ -1,7 +1,19 @@
-p, ol, ul, td {
+body {
+  width: 100%;
+  margin: 0;
+  background-color: #fff;
+  color: #333;
+  // margin: 33px;
   font-family: verdana, arial, helvetica, sans-serif;
   font-size: 13px;
   line-height: 18px;
+}
+
+
+p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  // line-height: 18px;
 }
 
 pre {
@@ -53,6 +65,7 @@ div {
   padding: 7px 7px 0;
   margin-bottom: 20px;
   background-color: #f0f0f0;
+}
 
   h2 {
     text-align: left;
@@ -68,7 +81,6 @@ div {
     font-size: 12px;
     list-style: square;
   }
-}
 
 label {
   display: block;
