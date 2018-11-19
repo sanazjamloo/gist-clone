@@ -45,9 +45,14 @@ td {
 }
 
 div {
-  &.field, &.actions {
+  &.field {
     margin-bottom: 10px;
   }
+}
+
+.actions {
+  margin-left: 20%;
+  margin-top: 2%;
 }
 
 #notice {
