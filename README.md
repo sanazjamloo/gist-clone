@@ -1,11 +1,17 @@
-# README
+## GistClone
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# A fun and simple version of GitHub Gists.
 
-Things you may want to cover:
+This small application is built with Ruby and Rails to achieve full CRUD.
 
-* Ruby version
+To run the application locally please follow these steps:
+
+
+* Ruby version 2.5.1p57
+
+* Rails version 5.2.1
+
+* Visit localhost/3000
 
 * System dependencies
 
