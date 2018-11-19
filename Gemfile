@@ -21,7 +21,7 @@ gem 'bootstrap'
 gem 'jquery-rails'
 
 # gem for friendly_id/ slugged_id
-gem 'friendly_id', '~> 5.2.0'
+gem 'friendly_id-globalize', '~> 1.0.0.alpha3'
 
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
