@@ -17,9 +17,11 @@
       <input  id="search-bar" type="text" placeholder="Search...">
 
       <ul class="nav">
-        <li><a class="all-gists" href="">All Gists</a></li>
+
+        <li class="all-gists"><%= link_to 'All Gists', posts_path %></li>
+        <!-- <li><a class="all-gists" href="">All Gists</a></li> -->
         <li><a class="github" href="https://github.com/">GitHub</a></li>
-        <li><%= link_to 'New Post', new_post_path %></li>
+        <li class="new_post"><%= link_to 'New Post', new_post_path %></li>
       </ul>
       </div> <!--end header-wrapper -->
 

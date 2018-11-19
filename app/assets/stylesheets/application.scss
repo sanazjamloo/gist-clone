@@ -71,15 +71,26 @@
   }
 
 
- .github, .all-gists {
-   margin-right: 6%;
-   width: 30%;
-   justify-content: space-between;
-   text-decoration: none;
-   margin: 0;
-   padding: 32px;
+  .all-gists {
+    width: 30%;
+    justify-content: space-between;
+    padding: 32px;
+    margin-top: -27px;
  }
 
+ .new_post {
+   margin-top: -13px;
+   margin-left: -13px;
+ }
+
+.github {
+  margin-left: 40%;
+  width: 30%;
+  justify-content: space-between;
+  text-decoration: none;
+  padding-left: 32%;
+
+}
 .content {
   height: auto;
   margin-left: 3px;
