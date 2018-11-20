@@ -4,13 +4,13 @@
     <title>GistClone</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
-    <div class="container">
+
       <header>
       <div class="header-wrapper" id="myHedaer">
       <h1 id="logo">GistClone</h1>
@@ -21,12 +21,12 @@
         <li class="all-gists"><%= link_to 'All Gists', posts_path %></li>
         <!-- <li><a class="all-gists" href="">All Gists</a></li> -->
         <li><a class="github" href="https://github.com/">GitHub</a></li>
-        <li class="new_post"><%= link_to 'New Post', new_post_path %></li>
+        <li class="new_gist"><%= link_to 'New Gist', new_post_path %></li>
       </ul>
       </div> <!--end header-wrapper -->
 
       </header>
-
+      <div class="container">
     <!-- the yield keyword will render another template and insert the result into this layout.-->
     <%= yield %>
     <div class="content">

@@ -15,16 +15,14 @@
  */
 
 
-  /* @import "bootstrap-sprockets";
-  @import "bootstrap";
-  @import 'bootstrap/theme' */
+  // @import "bootstrap-sprockets";
+  // @import "bootstrap";
+  // @import 'bootstrap/theme'
 
   body {
-    width: 100%;
-    margin: 0;
-    background-color: #fff;
+    width: 60%;
+    margin: 0 auto;
     color: #333;
-    // margin: 33px;
     font-family: verdana, arial, helvetica, sans-serif;
     font-size: 13px;
     line-height: 18px;
@@ -32,18 +30,24 @@
 
 
   .container {
-    min-height: calc(100vh - 70px);
+    // min-height: calc(100vh - 70px);
+    display: flex;
+    float: left;
+    padding-top: 10%;
+    margin-top: 9%;
   }
 
   .header-wrapper {
     background-color: #24292e;
     display: flex;
     width: 103%;
-    height:6%;
+    height:11%;
     margin-left: -8px;
     position:fixed;
     top:0px;
   }
+
+
 
   #logo {
   display: flex;
@@ -78,7 +82,7 @@
     margin-top: -27px;
  }
 
- .new_post {
+ .new_gist {
    margin-top: -13px;
    margin-left: -13px;
  }
