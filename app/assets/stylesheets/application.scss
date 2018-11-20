@@ -41,21 +41,17 @@
     background-color: #24292e;
     display: flex;
     width: 103%;
-    height:11%;
-    margin-left: -8px;
+    height:8%;
     position:fixed;
-    top:0px;
   }
 
 
 
   #logo {
-  display: flex;
-  color: white;
-  width: auto;
-  height: 20%;
-  font-size: 2em;
-  padding-left: 5%;
+    display: flex;
+    color: white;
+    font-size: 2em;
+    padding-left: 5%;
   }
 
   #search-bar {
@@ -64,22 +60,19 @@
     font-size: 9px;
     padding: 6px;
     border: none;
-    margin-top: 11px;
+    margin-top: 25px;
     margin-right: 20px;
     padding-left: 1%;
     margin-left: 20%;
     height: 2em;
     width: 20%;
-    margin-top: 11px;
     border-radius: 5px;
   }
 
 
   .all-gists {
-    width: 30%;
-    justify-content: space-between;
     padding: 32px;
-    margin-top: -27px;
+    margin-top: -14px;
  }
 
  .new_gist {
