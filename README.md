@@ -1,6 +1,6 @@
 ## GistClone
 
-###### A fun and simple version of GitHub Gists.
+######  &#x26C4; A fun and simple version of GitHub Gists &#x26C4;
 
 This small application is built with Ruby and Rails to achieve full CRUD. A user can simply create Gists and share them using a link.  Gists can also be edited and removed from the list.
 

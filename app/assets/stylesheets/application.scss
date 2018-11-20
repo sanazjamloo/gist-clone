@@ -20,8 +20,8 @@
   // @import 'bootstrap/theme'
 
   body {
-    width: 60%;
-    margin: 0 auto;
+    width: 100%;
+    margin: 0;
     color: #333;
     font-family: verdana, arial, helvetica, sans-serif;
     font-size: 13px;
@@ -30,10 +30,10 @@
 
 
   .container {
-    display: flex;
     float: left;
-    padding-top: 10%;
+    padding-top: 3%;
     margin-top: 9%;
+    width: 65%;
   }
 
   .header-wrapper {
@@ -90,13 +90,6 @@ ul.nav li a {
 }
 
 
-td {
-  font-family: verdana, arial, helvetica, sans-serif;
-  font-size: 13px;
-
-
-}
-
 table {
   margin-left: 3%;
   width: 127%;
@@ -108,22 +101,21 @@ table {
 }
 
 #post_title {
-  width: 50%;
-  height: 2em;
-  margin-left: 20%;
-  margin-top: 4%;
+  width: 75%;
   border-radius: 6px;
+  border-color: #f9f9f9;
+  border-style: groove;
+  margin-left: 25%;
 }
 
 #post_body {
-  width: 50%;
-  height: 30em;
-  margin-left: 20%;
-  margin-top: 4%;
+  height: 17em;
+  margin-top: 3%;
   border-radius: 6px;
-  border-color: darkgrey;
+  border-color: #d2d2d2;
   border-style: groove;
-
+  margin-left: 25%;
+  width: 75%;
 }
 
   footer {

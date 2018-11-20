@@ -2,26 +2,21 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 .show-title {
-  padding-top: 2px;
-  font-size: 1em;
-  width: 50%;
-  margin-left: 20%;
-  margin-top: 6%;
+  width: 74%;
+  border-radius: 6px;
   border-color: #f9f9f9;
   border-style: groove;
-  justify-content: center;
-  padding-bottom: 2px;
-  border-radius: 6px;
+  margin-left: 25%;
 }
+
+
 .show-body {
-  width: 50%;
-  height: 25em;
-  margin-left: 20%;
-  margin-top: 1%;
+  height: 19em;
+  margin-top: 3%;
   border-radius: 6px;
   border-color: #f9f9f9;
   border-style: groove;
-
+  margin-left: 25%;
 }
 
 .edit-back-link {
@@ -30,6 +25,10 @@
 }
 
 .new-back {
-  margin-left: 20.5%;
-  padding-top: 1%;
+  padding-top: 35%;
+}
+
+h4 {
+  font-weight:normal;
+  margin-left: 50%;
 }
