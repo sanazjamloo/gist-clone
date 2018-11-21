@@ -2,13 +2,14 @@
 <html>
   <head>
     <title>GistClone</title>
+    <meta charset='utf-8'>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <!-- <%= stylesheet_link_tag 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' %> -->
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
     <script src='codemirror/lib/codemirror.js'></script>
-    <% stylesheet_link_tag '/codemirror/lib/codemirror.css'%>
+    <%= stylesheet_link_tag '/codemirror/lib/codemirror.css'%>
     <script src="codemirror/mode/xml.js"></script>
   </head>
 
@@ -31,7 +32,7 @@
       </ul>
       </div> <!--end header-wrapper -->
       </header>
-      
+
       <div class="container">
     <!-- the yield keyword will render another template and insert the result into this layout.-->
     <%= yield %>
