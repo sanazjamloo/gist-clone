@@ -2,7 +2,7 @@
 
 ######  &#x26C4; A fun and simple version of GitHub Gists &#x26C4;
 
-Hello, and thanks for visiting my GistClone repo! 
+Hello, and thanks for visiting my GistClone repo!
 
 This small application is built with Ruby and Rails to achieve full CRUD features. A user can simply create Gists and share them using a link.  Gists can also be edited and removed from the list.
 
@@ -10,18 +10,18 @@ This small application is built with Ruby and Rails to achieve full CRUD feature
 
 ##### Primary Features
 
-Ability to create gists via a web interface.
-Ability to view and update gists in a web browser using a unique URL.
+* Ability to create gists via a web interface.
+* Ability to view and update gists in a web browser using a unique URL.
 
 ##### Potential Extra Features
 These features are potential add-ons to the main concept.
 
-Ability to view gists in a browser via a URL slug, or short ID (think bit.ly).
-Ability to create gists via an API.
-Syntax highlighting for gists whose content is a programming language.
-Markdown Rendering with Github Flavored Markdown for gists whose content is in markdown.
-User accounts that gists belong to.
-User authentication with OAuth (any of Google, Facebook, Twitter, etc.)
+* Ability to view gists in a browser via a URL slug, or short ID (think bit.ly).
+* Ability to create gists via an API.
+* Syntax highlighting for gists whose content is a programming language.
+* Markdown Rendering with Github Flavored Markdown for gists whose content is in markdown.
+* User accounts that gists belong to.
+* User authentication with OAuth (any of Google, Facebook, Twitter, etc.)
 
 For this project, none of the extra features has been implemented yet.  I started working on the URL slug and the CodeMirror features but have not been able to get the expected results yet.
 
@@ -47,8 +47,11 @@ After you install the dependencies:
 1. Navigate to ```localhost:3000/posts```
 
 
-##### References and resources used for the extra features
+##### References and resources used for the extra features  U+1F4DA
 
 For URL slug/ friendly ID [norman/friendly_id](https://github.com/norman/friendly_id) and [norman/friendly_id](http://norman.github.io/friendly_id/file.Guide.html)
 
-For CodeMirror [YouTube](https://www.youtube.com/watch?v=o1DDWQDBT9Y) and [CodeMirror.net](https://codemirror.net/)
+For CodeMirror [YouTube](https://www.youtube.com/watch?v=o1DDWQDBT9Y),[CodeMirror.net](https://codemirror.net/), and [CodeMirror for Ruby and Rails](http://clecompte.com/codemirror-ruby-rails/)
+
+I hope you enjoy working with my GistClone as much as I enjoyed making it. U+1F469   
+Please feel free to contact me if you have any suggestions or comments.  U+1F4EE
