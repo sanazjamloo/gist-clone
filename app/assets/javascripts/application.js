@@ -14,3 +14,17 @@
 // = require activestorage
 // = require turbolinks
 // = require_tree .
+
+= require codemirror
+= require codemirror/modes/xml
+= require codemirror/modes/htmlmixed
+= require codemirror/modes/javascript
+= require codemirror/modes/ruby
+= require codemirror/modes/haml
+
+// $("textarea").each(function() {
+//     CodeMirror.fromTextArea($(this).get(0), {
+//       lineNumbers: true,
+//       mode: "text/x-haml"
+//     });
+//   });
