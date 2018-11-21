@@ -47,11 +47,11 @@ After you install the dependencies:
 1. Navigate to ```localhost:3000/posts```
 
 
-##### References and resources used for the extra features  U+1F4DA
+##### References and resources used for the extra features  &#x1f4da;
 
 For URL slug/ friendly ID [norman/friendly_id](https://github.com/norman/friendly_id) and [norman/friendly_id](http://norman.github.io/friendly_id/file.Guide.html)
 
 For CodeMirror [YouTube](https://www.youtube.com/watch?v=o1DDWQDBT9Y),[CodeMirror.net](https://codemirror.net/), and [CodeMirror for Ruby and Rails](http://clecompte.com/codemirror-ruby-rails/)
 
-I hope you enjoy working with my GistClone as much as I enjoyed making it. U+1F469   
-Please feel free to contact me if you have any suggestions or comments.  U+1F4EE
+I hope you enjoy working with my GistClone as much as I enjoyed making it. &#x1f469;  
+Please feel free to contact me if you have any suggestions or comments.  &#xe102;
