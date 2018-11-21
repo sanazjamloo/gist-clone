@@ -13,7 +13,7 @@
   </head>
 
   <body>
-    
+
     <script>
         var editor = CodeMirror.fromTextArea
         (document.getElementById('editor'));
@@ -23,17 +23,15 @@
       <div class="header-wrapper" id="myHedaer">
       <h1 id="logo">GistClone</h1>
       <input id="search-bar" type="text" placeholder="Search...">
-
       <ul class="nav">
-
         <li class="all-gists"><%= link_to 'All Gists', posts_path %></li>
         <!-- <li><a class="all-gists" href="">All Gists</a></li> -->
         <li><a class="github" href="https://github.com/">GitHub</a></li>
         <li class="new_gist"><%= link_to 'New Gist', new_post_path %></li>
       </ul>
       </div> <!--end header-wrapper -->
-
       </header>
+      
       <div class="container">
     <!-- the yield keyword will render another template and insert the result into this layout.-->
     <%= yield %>
